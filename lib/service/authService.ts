@@ -1,6 +1,6 @@
 import axios from "axios"
 
-const BASEURL = "http://localhost:5000/api/auth/"
+const BASEURL = "https://backproject-a35a.onrender.com/api/auth/"
 
 const api = axios.create({
   baseURL: BASEURL,
