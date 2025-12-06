@@ -1,0 +1,1165 @@
+[00:00:02.595] Server  LOG      ✓ Ready in 1786ms
+[00:00:15.303] Server  LOG      ○ Compiling / ...
+[00:00:20.370] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:20.672] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:00:20.672] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:00:20.672] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1765010643143}
+[00:03:09.089] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:03:09.578] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:03:09.578] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:03:09.578] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1765010812014}
+[00:37:27.108] Server  LOG      ✓ Compiled in 451ms
+[00:37:39.480] Server  LOG      ✓ Compiled in 367ms
+[00:37:43.065] Server  LOG      ✓ Compiled in 251ms
+[00:40:35.392] Server  LOG      ✓ Compiled in 725ms
+[00:40:38.484] Server  LOG      ✓ Compiled in 305ms
+[00:42:05.800] Server  LOG      ✓ Compiled in 215ms
+[00:42:08.342] Server  LOG      ✓ Compiled in 203ms
+[00:42:09.839] Server  LOG      ✓ Compiled in 176ms
+[00:42:14.379] Server  LOG      ✓ Compiled in 190ms
+[00:43:00.556] Server  LOG      ✓ Compiled in 469ms
+[00:43:01.498] Browser ERROR   ./lib/service/authService.ts:31:7
+Parsing ecmascript source code failed
+  29 |         localStorage.setItem("authToken", response.data.token)
+  30 |         console.
+> 31 |       }
+     |       ^
+  32 |       return response.data
+  33 |     } catch (error) {
+  34 |       console.error("Registration error:", error)
+
+Expected ident
+
+Import traces:
+  Client Component Browser:
+    ./lib/service/authService.ts [Client Component Browser]
+    ./components/auth-page.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./lib/service/authService.ts [Client Component SSR]
+    ./components/auth-page.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:43:17.742] Server  LOG      ✓ Compiled in 312ms
+[00:44:21.717] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:44:22.255] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:44:22.255] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:44:22.255] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1765013284515}
+[00:44:35.244] Browser ERROR   Login error: {"code":"ERR_BAD_REQUEST","config":{"adapter":["xhr","http","fetch"],"allowAbsoluteUrls":true,"baseURL":"http://localhost:5000/","data":"{\"email\":\"besrour.safa.1997@gmail.com\",\"password\":\"dsgdf\"}","env":{},"headers":{"Accept":"application/json, text/plain, */*","Content-Type":"application/json"},"maxBodyLength":-1,"maxContentLength":-1,"method":"post","timeout":0,"transformRequest":[null],"transformResponse":[null],"transitional":{"clarifyTimeoutError":false,"forcedJSONParsing":true,"silentJSONParsing":true},"url":"login","xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN"},"message":"Request failed with status code 404","name":"AxiosError","stack":"AxiosError: Request failed with status code 404\n    at settle (http://localhost:3000/_next/static/chunks/node_modules_66ba6bc8._.js:7694:16)\n    at XMLHttpRequest.onloadend (http://localhost:3000/_next/static/chunks/node_modules_66ba6bc8._.js:8209:174)\n    at Axios.request (http://localhost:3000/_next/static/chunks/node_modules_66ba6bc8._.js:9013:49)\n    at async Object.login (http://localhost:3000/_next/static/chunks/_2b0bcfa5._.js:639:30)\n    at async handleSubmit (http://localhost:3000/_next/static/chunks/_2b0bcfa5._.js:725:28)","status":404}
+[00:44:35.244] Browser ERROR   {"code":"ERR_BAD_REQUEST","config":{"adapter":["xhr","http","fetch"],"allowAbsoluteUrls":true,"baseURL":"http://localhost:5000/","data":"{\"email\":\"besrour.safa.1997@gmail.com\",\"password\":\"dsgdf\"}","env":{},"headers":{"Accept":"application/json, text/plain, */*","Content-Type":"application/json"},"maxBodyLength":-1,"maxContentLength":-1,"method":"post","timeout":0,"transformRequest":[null],"transformResponse":[null],"transitional":{"clarifyTimeoutError":false,"forcedJSONParsing":true,"silentJSONParsing":true},"url":"login","xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN"},"message":"Request failed with status code 404","name":"AxiosError","stack":"AxiosError: Request failed with status code 404\n    at settle (http://localhost:3000/_next/static/chunks/node_modules_66ba6bc8._.js:7694:16)\n    at XMLHttpRequest.onloadend (http://localhost:3000/_next/static/chunks/node_modules_66ba6bc8._.js:8209:174)\n    at Axios.request (http://localhost:3000/_next/static/chunks/node_modules_66ba6bc8._.js:9013:49)\n    at async Object.login (http://localhost:3000/_next/static/chunks/_2b0bcfa5._.js:639:30)\n    at async handleSubmit (http://localhost:3000/_next/static/chunks/_2b0bcfa5._.js:725:28)","status":404}
+[00:45:03.952] Browser ERROR   Login error: {"code":"ERR_BAD_REQUEST","config":{"adapter":["xhr","http","fetch"],"allowAbsoluteUrls":true,"baseURL":"http://localhost:5000/","data":"{\"email\":\"besrour.safa.1997@gmail.com\",\"password\":\"dsgdf\"}","env":{},"headers":{"Accept":"application/json, text/plain, */*","Content-Type":"application/json"},"maxBodyLength":-1,"maxContentLength":-1,"method":"post","timeout":0,"transformRequest":[null],"transformResponse":[null],"transitional":{"clarifyTimeoutError":false,"forcedJSONParsing":true,"silentJSONParsing":true},"url":"login","xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN"},"message":"Request failed with status code 404","name":"AxiosError","stack":"AxiosError: Request failed with status code 404\n    at settle (http://localhost:3000/_next/static/chunks/node_modules_66ba6bc8._.js:7694:16)\n    at XMLHttpRequest.onloadend (http://localhost:3000/_next/static/chunks/node_modules_66ba6bc8._.js:8209:174)\n    at Axios.request (http://localhost:3000/_next/static/chunks/node_modules_66ba6bc8._.js:9013:49)\n    at async Object.login (http://localhost:3000/_next/static/chunks/_2b0bcfa5._.js:639:30)\n    at async handleSubmit (http://localhost:3000/_next/static/chunks/_2b0bcfa5._.js:725:28)","status":404}
+[00:45:03.952] Browser ERROR   {"code":"ERR_BAD_REQUEST","config":{"adapter":["xhr","http","fetch"],"allowAbsoluteUrls":true,"baseURL":"http://localhost:5000/","data":"{\"email\":\"besrour.safa.1997@gmail.com\",\"password\":\"dsgdf\"}","env":{},"headers":{"Accept":"application/json, text/plain, */*","Content-Type":"application/json"},"maxBodyLength":-1,"maxContentLength":-1,"method":"post","timeout":0,"transformRequest":[null],"transformResponse":[null],"transitional":{"clarifyTimeoutError":false,"forcedJSONParsing":true,"silentJSONParsing":true},"url":"login","xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN"},"message":"Request failed with status code 404","name":"AxiosError","stack":"AxiosError: Request failed with status code 404\n    at settle (http://localhost:3000/_next/static/chunks/node_modules_66ba6bc8._.js:7694:16)\n    at XMLHttpRequest.onloadend (http://localhost:3000/_next/static/chunks/node_modules_66ba6bc8._.js:8209:174)\n    at Axios.request (http://localhost:3000/_next/static/chunks/node_modules_66ba6bc8._.js:9013:49)\n    at async Object.login (http://localhost:3000/_next/static/chunks/_2b0bcfa5._.js:639:30)\n    at async handleSubmit (http://localhost:3000/_next/static/chunks/_2b0bcfa5._.js:725:28)","status":404}
+[00:46:07.734] Browser ERROR   Registration error: {"code":"ERR_BAD_REQUEST","config":{"adapter":["xhr","http","fetch"],"allowAbsoluteUrls":true,"baseURL":"http://localhost:5000/","data":"{\"email\":\"besrour.safa.1997@gmail.com\",\"password\":\"safa123\"}","env":{},"headers":{"Accept":"application/json, text/plain, */*","Content-Type":"application/json"},"maxBodyLength":-1,"maxContentLength":-1,"method":"post","timeout":0,"transformRequest":[null],"transformResponse":[null],"transitional":{"clarifyTimeoutError":false,"forcedJSONParsing":true,"silentJSONParsing":true},"url":"register","xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN"},"message":"Request failed with status code 404","name":"AxiosError","stack":"AxiosError: Request failed with status code 404\n    at settle (http://localhost:3000/_next/static/chunks/node_modules_66ba6bc8._.js:7694:16)\n    at XMLHttpRequest.onloadend (http://localhost:3000/_next/static/chunks/node_modules_66ba6bc8._.js:8209:174)\n    at Axios.request (http://localhost:3000/_next/static/chunks/node_modules_66ba6bc8._.js:9013:49)\n    at async Object.register (http://localhost:3000/_next/static/chunks/_2b0bcfa5._.js:623:30)\n    at async handleSubmit (http://localhost:3000/_next/static/chunks/_2b0bcfa5._.js:723:28)","status":404}
+[00:46:07.734] Browser ERROR   {"code":"ERR_BAD_REQUEST","config":{"adapter":["xhr","http","fetch"],"allowAbsoluteUrls":true,"baseURL":"http://localhost:5000/","data":"{\"email\":\"besrour.safa.1997@gmail.com\",\"password\":\"safa123\"}","env":{},"headers":{"Accept":"application/json, text/plain, */*","Content-Type":"application/json"},"maxBodyLength":-1,"maxContentLength":-1,"method":"post","timeout":0,"transformRequest":[null],"transformResponse":[null],"transitional":{"clarifyTimeoutError":false,"forcedJSONParsing":true,"silentJSONParsing":true},"url":"register","xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN"},"message":"Request failed with status code 404","name":"AxiosError","stack":"AxiosError: Request failed with status code 404\n    at settle (http://localhost:3000/_next/static/chunks/node_modules_66ba6bc8._.js:7694:16)\n    at XMLHttpRequest.onloadend (http://localhost:3000/_next/static/chunks/node_modules_66ba6bc8._.js:8209:174)\n    at Axios.request (http://localhost:3000/_next/static/chunks/node_modules_66ba6bc8._.js:9013:49)\n    at async Object.register (http://localhost:3000/_next/static/chunks/_2b0bcfa5._.js:623:30)\n    at async handleSubmit (http://localhost:3000/_next/static/chunks/_2b0bcfa5._.js:723:28)","status":404}
+[00:47:49.307] Browser ERROR   Registration error: {"code":"ERR_BAD_REQUEST","config":{"adapter":["xhr","http","fetch"],"allowAbsoluteUrls":true,"baseURL":"http://localhost:5000/","data":"{\"email\":\"besrour.safa.1997@gmail.com\",\"password\":\"safa123\"}","env":{},"headers":{"Accept":"application/json, text/plain, */*","Content-Type":"application/json"},"maxBodyLength":-1,"maxContentLength":-1,"method":"post","timeout":0,"transformRequest":[null],"transformResponse":[null],"transitional":{"clarifyTimeoutError":false,"forcedJSONParsing":true,"silentJSONParsing":true},"url":"register","xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN"},"message":"Request failed with status code 404","name":"AxiosError","stack":"AxiosError: Request failed with status code 404\n    at settle (http://localhost:3000/_next/static/chunks/node_modules_66ba6bc8._.js:7694:16)\n    at XMLHttpRequest.onloadend (http://localhost:3000/_next/static/chunks/node_modules_66ba6bc8._.js:8209:174)\n    at Axios.request (http://localhost:3000/_next/static/chunks/node_modules_66ba6bc8._.js:9013:49)\n    at async Object.register (http://localhost:3000/_next/static/chunks/_2b0bcfa5._.js:623:30)\n    at async handleSubmit (http://localhost:3000/_next/static/chunks/_2b0bcfa5._.js:723:28)","status":404}
+[00:47:49.307] Browser ERROR   {"code":"ERR_BAD_REQUEST","config":{"adapter":["xhr","http","fetch"],"allowAbsoluteUrls":true,"baseURL":"http://localhost:5000/","data":"{\"email\":\"besrour.safa.1997@gmail.com\",\"password\":\"safa123\"}","env":{},"headers":{"Accept":"application/json, text/plain, */*","Content-Type":"application/json"},"maxBodyLength":-1,"maxContentLength":-1,"method":"post","timeout":0,"transformRequest":[null],"transformResponse":[null],"transitional":{"clarifyTimeoutError":false,"forcedJSONParsing":true,"silentJSONParsing":true},"url":"register","xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN"},"message":"Request failed with status code 404","name":"AxiosError","stack":"AxiosError: Request failed with status code 404\n    at settle (http://localhost:3000/_next/static/chunks/node_modules_66ba6bc8._.js:7694:16)\n    at XMLHttpRequest.onloadend (http://localhost:3000/_next/static/chunks/node_modules_66ba6bc8._.js:8209:174)\n    at Axios.request (http://localhost:3000/_next/static/chunks/node_modules_66ba6bc8._.js:9013:49)\n    at async Object.register (http://localhost:3000/_next/static/chunks/_2b0bcfa5._.js:623:30)\n    at async handleSubmit (http://localhost:3000/_next/static/chunks/_2b0bcfa5._.js:723:28)","status":404}
+[00:47:50.789] Browser ERROR   Registration error: {"code":"ERR_BAD_REQUEST","config":{"adapter":["xhr","http","fetch"],"allowAbsoluteUrls":true,"baseURL":"http://localhost:5000/","data":"{\"email\":\"besrour.safa.1997@gmail.com\",\"password\":\"safa123\"}","env":{},"headers":{"Accept":"application/json, text/plain, */*","Content-Type":"application/json"},"maxBodyLength":-1,"maxContentLength":-1,"method":"post","timeout":0,"transformRequest":[null],"transformResponse":[null],"transitional":{"clarifyTimeoutError":false,"forcedJSONParsing":true,"silentJSONParsing":true},"url":"register","xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN"},"message":"Request failed with status code 404","name":"AxiosError","stack":"AxiosError: Request failed with status code 404\n    at settle (http://localhost:3000/_next/static/chunks/node_modules_66ba6bc8._.js:7694:16)\n    at XMLHttpRequest.onloadend (http://localhost:3000/_next/static/chunks/node_modules_66ba6bc8._.js:8209:174)\n    at Axios.request (http://localhost:3000/_next/static/chunks/node_modules_66ba6bc8._.js:9013:49)\n    at async Object.register (http://localhost:3000/_next/static/chunks/_2b0bcfa5._.js:623:30)\n    at async handleSubmit (http://localhost:3000/_next/static/chunks/_2b0bcfa5._.js:723:28)","status":404}
+[00:47:50.789] Browser ERROR   {"code":"ERR_BAD_REQUEST","config":{"adapter":["xhr","http","fetch"],"allowAbsoluteUrls":true,"baseURL":"http://localhost:5000/","data":"{\"email\":\"besrour.safa.1997@gmail.com\",\"password\":\"safa123\"}","env":{},"headers":{"Accept":"application/json, text/plain, */*","Content-Type":"application/json"},"maxBodyLength":-1,"maxContentLength":-1,"method":"post","timeout":0,"transformRequest":[null],"transformResponse":[null],"transitional":{"clarifyTimeoutError":false,"forcedJSONParsing":true,"silentJSONParsing":true},"url":"register","xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN"},"message":"Request failed with status code 404","name":"AxiosError","stack":"AxiosError: Request failed with status code 404\n    at settle (http://localhost:3000/_next/static/chunks/node_modules_66ba6bc8._.js:7694:16)\n    at XMLHttpRequest.onloadend (http://localhost:3000/_next/static/chunks/node_modules_66ba6bc8._.js:8209:174)\n    at Axios.request (http://localhost:3000/_next/static/chunks/node_modules_66ba6bc8._.js:9013:49)\n    at async Object.register (http://localhost:3000/_next/static/chunks/_2b0bcfa5._.js:623:30)\n    at async handleSubmit (http://localhost:3000/_next/static/chunks/_2b0bcfa5._.js:723:28)","status":404}
+[00:50:41.470] Server  LOG      ✓ Compiled in 501ms
+[00:50:43.556] Server  LOG      ✓ Compiled in 394ms
+[00:51:22.560] Browser ERROR   Registration error: {"code":"ERR_BAD_RESPONSE","config":{"adapter":["xhr","http","fetch"],"allowAbsoluteUrls":true,"baseURL":"http://localhost:5000/api/auth/","data":"{\"email\":\"besrour.safa.1997@gmail.com\",\"password\":\"safa123\"}","env":{},"headers":{"Accept":"application/json, text/plain, */*","Content-Type":"application/json"},"maxBodyLength":-1,"maxContentLength":-1,"method":"post","timeout":0,"transformRequest":[null],"transformResponse":[null],"transitional":{"clarifyTimeoutError":false,"forcedJSONParsing":true,"silentJSONParsing":true},"url":"register","xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN"},"message":"Request failed with status code 500","name":"AxiosError","stack":"AxiosError: Request failed with status code 500\n    at settle (http://localhost:3000/_next/static/chunks/node_modules_66ba6bc8._.js:7694:16)\n    at XMLHttpRequest.onloadend (http://localhost:3000/_next/static/chunks/node_modules_66ba6bc8._.js:8209:174)\n    at Axios.request (http://localhost:3000/_next/static/chunks/node_modules_66ba6bc8._.js:9013:49)\n    at async Object.register (http://localhost:3000/_next/static/chunks/_2b0bcfa5._.js?id=%255Bproject%255D%252Flib%252Fservice%252FauthService.ts+%255Bapp-client%255D+%2528ecmascript%2529:28:30)\n    at async handleSubmit (http://localhost:3000/_next/static/chunks/_2b0bcfa5._.js:723:28)","status":500}
+[00:51:22.560] Browser ERROR   {"code":"ERR_BAD_RESPONSE","config":{"adapter":["xhr","http","fetch"],"allowAbsoluteUrls":true,"baseURL":"http://localhost:5000/api/auth/","data":"{\"email\":\"besrour.safa.1997@gmail.com\",\"password\":\"safa123\"}","env":{},"headers":{"Accept":"application/json, text/plain, */*","Content-Type":"application/json"},"maxBodyLength":-1,"maxContentLength":-1,"method":"post","timeout":0,"transformRequest":[null],"transformResponse":[null],"transitional":{"clarifyTimeoutError":false,"forcedJSONParsing":true,"silentJSONParsing":true},"url":"register","xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN"},"message":"Request failed with status code 500","name":"AxiosError","stack":"AxiosError: Request failed with status code 500\n    at settle (http://localhost:3000/_next/static/chunks/node_modules_66ba6bc8._.js:7694:16)\n    at XMLHttpRequest.onloadend (http://localhost:3000/_next/static/chunks/node_modules_66ba6bc8._.js:8209:174)\n    at Axios.request (http://localhost:3000/_next/static/chunks/node_modules_66ba6bc8._.js:9013:49)\n    at async Object.register (http://localhost:3000/_next/static/chunks/_2b0bcfa5._.js?id=%255Bproject%255D%252Flib%252Fservice%252FauthService.ts+%255Bapp-client%255D+%2528ecmascript%2529:28:30)\n    at async handleSubmit (http://localhost:3000/_next/static/chunks/_2b0bcfa5._.js:723:28)","status":500}
+[00:52:23.274] Server  LOG      ✓ Compiled in 180ms
+[00:52:23.520] Browser ERROR   ./lib/service/authService.ts:27:9
+Parsing ecmascript source code failed
+  25 |         email,
+  26 |         name
+> 27 |         password,
+     |         ^^^^^^^^
+  28 |       })
+  29 |       if (response.data.token) {
+  30 |         localStorage.setItem("authToken", response.data.token)
+
+Unexpected token `password`. Expected ... , *,  (, [, :, , ?, =, an identifier, public, protected, private, readonly, <.
+
+Import traces:
+  Client Component Browser:
+    ./lib/service/authService.ts [Client Component Browser]
+    ./components/auth-page.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./lib/service/authService.ts [Client Component SSR]
+    ./components/auth-page.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:52:27.944] Server  LOG      ✓ Compiled in 202ms
+[00:52:44.667] Server  LOG      ✓ Compiled in 283ms
+[00:53:24.938] Server  LOG      ✓ Compiled in 344ms
+[00:53:30.895] Server  LOG      ✓ Compiled in 286ms
+[00:53:31.507] Browser ERROR   ./lib/service/authService.ts:22:58
+Parsing ecmascript source code failed
+  20 |
+  21 | export const authService = {
+> 22 |   register: async (email: string, password: string,name :) => {
+     |                                                          ^
+  23 |     try {
+  24 |       const response = await api.post("register", {
+  25 |         email,
+
+Unexpected token `)`. Expected an identifier, void, yield, null, await, break, a string literal, a numeric literal, true, false, `, -, import, this, typeof, {, [, (
+
+Import traces:
+  Client Component Browser:
+    ./lib/service/authService.ts [Client Component Browser]
+    ./components/auth-page.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./lib/service/authService.ts [Client Component SSR]
+    ./components/auth-page.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:53:47.306] Server  LOG      ✓ Compiled in 253ms
+[00:54:52.585] Server  LOG      ✓ Compiled in 236ms
+[00:54:53.440] Server  LOG      ✓ Compiled in 160ms
+[00:54:54.445] Server  LOG      ✓ Compiled in 166ms
+[00:54:55.583] Server  LOG      ✓ Compiled in 311ms
+[00:54:56.553] Browser ERROR   ./components/auth-page.tsx:165:15
+Parsing ecmascript source code failed
+  163 |                   className="text-primary font-semibold hover:underline"
+  164 |
+> 165 |               <Button type="submit" disabled={isLoading} className="w-full bg-primary text-primary-foreground hover:bg-primary/90 py-2">
+      |               ^
+  166 |                 {isLoading ? "Processing..." : isSignUp ? "Sign Up" : "Log In"}
+  167 |               </Button>
+  168 |             </form>
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./components/auth-page.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/auth-page.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:55:02.497] Browser ERROR   ./components/auth-page.tsx:165:15
+Parsing ecmascript source code failed
+  163 |                   className="text-primary font-semibold hover:underline"
+  164 |
+> 165 |               <Button type="submit" disabled={isLoading} className="w-full bg-primary text-primary-foreground hover:bg-primary/90 py-2">
+      |               ^
+  166 |                 {isLoading ? "Processing..." : isSignUp ? "Sign Up" : "Log In"}
+  167 |               </Button>
+  168 |             </form>
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./components/auth-page.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/auth-page.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:55:42.385] Server  LOG      ✓ Compiled in 159ms
+[00:59:47.152] Browser LOG     Login successful, token stored.
+[01:00:04.116] Browser ERROR   Login error: {"code":"ERR_BAD_REQUEST","config":{"adapter":["xhr","http","fetch"],"allowAbsoluteUrls":true,"baseURL":"http://localhost:5000/api/auth/","data":"{\"email\":\"besrour.safa.1997@gmail.com\",\"password\":\"safa12312\"}","env":{},"headers":{"Accept":"application/json, text/plain, */*","Authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5MzNmOWZkMmYyOGMyYTVjZGIyZGQ1ZSIsImlhdCI6MTc2NTAxNDIwOSwiZXhwIjoxNzY1NjE5MDA5fQ.BCFQYSF4WBfoRAPOXHwH8hpyxWVQE4_JXSO9XoA1r4U","Content-Type":"application/json"},"maxBodyLength":-1,"maxContentLength":-1,"method":"post","timeout":0,"transformRequest":[null],"transformResponse":[null],"transitional":{"clarifyTimeoutError":false,"forcedJSONParsing":true,"silentJSONParsing":true},"url":"login","xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN"},"message":"Request failed with status code 400","name":"AxiosError","stack":"AxiosError: Request failed with status code 400\n    at settle (http://localhost:3000/_next/static/chunks/node_modules_66ba6bc8._.js:7694:16)\n    at XMLHttpRequest.onloadend (http://localhost:3000/_next/static/chunks/node_modules_66ba6bc8._.js:8209:174)\n    at Axios.request (http://localhost:3000/_next/static/chunks/node_modules_66ba6bc8._.js:9013:49)\n    at async Object.login (http://localhost:3000/_next/static/chunks/_2b0bcfa5._.js?id=%255Bproject%255D%252Flib%252Fservice%252FauthService.ts+%255Bapp-client%255D+%2528ecmascript%2529:45:30)\n    at async handleSubmit (http://localhost:3000/_next/static/chunks/_2b0bcfa5._.js?id=%255Bproject%255D%252Fcomponents%252Fauth-page.tsx+%255Bapp-client%255D+%2528ecmascript%2529:59:28)","status":400}
+[01:00:04.116] Browser ERROR   {"code":"ERR_BAD_REQUEST","config":{"adapter":["xhr","http","fetch"],"allowAbsoluteUrls":true,"baseURL":"http://localhost:5000/api/auth/","data":"{\"email\":\"besrour.safa.1997@gmail.com\",\"password\":\"safa12312\"}","env":{},"headers":{"Accept":"application/json, text/plain, */*","Authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5MzNmOWZkMmYyOGMyYTVjZGIyZGQ1ZSIsImlhdCI6MTc2NTAxNDIwOSwiZXhwIjoxNzY1NjE5MDA5fQ.BCFQYSF4WBfoRAPOXHwH8hpyxWVQE4_JXSO9XoA1r4U","Content-Type":"application/json"},"maxBodyLength":-1,"maxContentLength":-1,"method":"post","timeout":0,"transformRequest":[null],"transformResponse":[null],"transitional":{"clarifyTimeoutError":false,"forcedJSONParsing":true,"silentJSONParsing":true},"url":"login","xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN"},"message":"Request failed with status code 400","name":"AxiosError","stack":"AxiosError: Request failed with status code 400\n    at settle (http://localhost:3000/_next/static/chunks/node_modules_66ba6bc8._.js:7694:16)\n    at XMLHttpRequest.onloadend (http://localhost:3000/_next/static/chunks/node_modules_66ba6bc8._.js:8209:174)\n    at Axios.request (http://localhost:3000/_next/static/chunks/node_modules_66ba6bc8._.js:9013:49)\n    at async Object.login (http://localhost:3000/_next/static/chunks/_2b0bcfa5._.js?id=%255Bproject%255D%252Flib%252Fservice%252FauthService.ts+%255Bapp-client%255D+%2528ecmascript%2529:45:30)\n    at async handleSubmit (http://localhost:3000/_next/static/chunks/_2b0bcfa5._.js?id=%255Bproject%255D%252Fcomponents%252Fauth-page.tsx+%255Bapp-client%255D+%2528ecmascript%2529:59:28)","status":400}
+[01:00:48.353] Browser ERROR   Login error: {"code":"ERR_BAD_REQUEST","config":{"adapter":["xhr","http","fetch"],"allowAbsoluteUrls":true,"baseURL":"http://localhost:5000/api/auth/","data":"{\"email\":\"besrour.safa.1997@gmail.com\",\"password\":\"safa12312\"}","env":{},"headers":{"Accept":"application/json, text/plain, */*","Authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5MzNmOWZkMmYyOGMyYTVjZGIyZGQ1ZSIsImlhdCI6MTc2NTAxNDIwOSwiZXhwIjoxNzY1NjE5MDA5fQ.BCFQYSF4WBfoRAPOXHwH8hpyxWVQE4_JXSO9XoA1r4U","Content-Type":"application/json"},"maxBodyLength":-1,"maxContentLength":-1,"method":"post","timeout":0,"transformRequest":[null],"transformResponse":[null],"transitional":{"clarifyTimeoutError":false,"forcedJSONParsing":true,"silentJSONParsing":true},"url":"login","xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN"},"message":"Request failed with status code 400","name":"AxiosError","stack":"AxiosError: Request failed with status code 400\n    at settle (http://localhost:3000/_next/static/chunks/node_modules_66ba6bc8._.js:7694:16)\n    at XMLHttpRequest.onloadend (http://localhost:3000/_next/static/chunks/node_modules_66ba6bc8._.js:8209:174)\n    at Axios.request (http://localhost:3000/_next/static/chunks/node_modules_66ba6bc8._.js:9013:49)\n    at async Object.login (http://localhost:3000/_next/static/chunks/_2b0bcfa5._.js?id=%255Bproject%255D%252Flib%252Fservice%252FauthService.ts+%255Bapp-client%255D+%2528ecmascript%2529:45:30)\n    at async handleSubmit (http://localhost:3000/_next/static/chunks/_2b0bcfa5._.js?id=%255Bproject%255D%252Fcomponents%252Fauth-page.tsx+%255Bapp-client%255D+%2528ecmascript%2529:59:28)","status":400}
+[01:00:48.353] Browser ERROR   {"code":"ERR_BAD_REQUEST","config":{"adapter":["xhr","http","fetch"],"allowAbsoluteUrls":true,"baseURL":"http://localhost:5000/api/auth/","data":"{\"email\":\"besrour.safa.1997@gmail.com\",\"password\":\"safa12312\"}","env":{},"headers":{"Accept":"application/json, text/plain, */*","Authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5MzNmOWZkMmYyOGMyYTVjZGIyZGQ1ZSIsImlhdCI6MTc2NTAxNDIwOSwiZXhwIjoxNzY1NjE5MDA5fQ.BCFQYSF4WBfoRAPOXHwH8hpyxWVQE4_JXSO9XoA1r4U","Content-Type":"application/json"},"maxBodyLength":-1,"maxContentLength":-1,"method":"post","timeout":0,"transformRequest":[null],"transformResponse":[null],"transitional":{"clarifyTimeoutError":false,"forcedJSONParsing":true,"silentJSONParsing":true},"url":"login","xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN"},"message":"Request failed with status code 400","name":"AxiosError","stack":"AxiosError: Request failed with status code 400\n    at settle (http://localhost:3000/_next/static/chunks/node_modules_66ba6bc8._.js:7694:16)\n    at XMLHttpRequest.onloadend (http://localhost:3000/_next/static/chunks/node_modules_66ba6bc8._.js:8209:174)\n    at Axios.request (http://localhost:3000/_next/static/chunks/node_modules_66ba6bc8._.js:9013:49)\n    at async Object.login (http://localhost:3000/_next/static/chunks/_2b0bcfa5._.js?id=%255Bproject%255D%252Flib%252Fservice%252FauthService.ts+%255Bapp-client%255D+%2528ecmascript%2529:45:30)\n    at async handleSubmit (http://localhost:3000/_next/static/chunks/_2b0bcfa5._.js?id=%255Bproject%255D%252Fcomponents%252Fauth-page.tsx+%255Bapp-client%255D+%2528ecmascript%2529:59:28)","status":400}
+[01:01:15.864] Browser LOG     Login successful, token stored.
+[01:02:05.336] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:02:05.942] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:02:05.942] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[01:02:05.942] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1765014348194}
+[01:07:35.594] Server  LOG      ✓ Compiled in 221ms
+[01:07:36.736] Server  LOG      ✓ Compiled in 290ms
+[01:07:37.816] Server  LOG      ✓ Compiled in 244ms
+[01:07:38.532] Browser ERROR   ./components/task-form.tsx:21:52
+Parsing ecmascript source code failed
+  19 |   const [priority, setPriority] = useState<"low" | "medium" | "high">("medium")
+  20 |   const [error, setError] = useState("")
+> 21 |   const [isLoading, setIsLoading] = useState(false)te<"low" | "medium" | "high">("medium")
+     |                                                    ^^
+  22 |   const [error, setError] = useState("")
+  23 |
+  24 |   useEffect(() => {
+
+Expected a semicolon
+
+Import traces:
+  Client Component Browser:
+    ./components/task-form.tsx [Client Component Browser]
+    ./components/dashboard-page.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/task-form.tsx [Client Component SSR]
+    ./components/dashboard-page.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[01:07:39.529] Browser ERROR   ./components/task-form.tsx:86:5
+Parsing ecmascript source code failed
+  84 |       setIsLoading(false)
+  85 |     }
+> 86 |   } setDeadline("")
+     |     ^^^^^^^^^^^
+  87 |     setPriority("medium")
+  88 |   }
+  89 |
+
+Expected a semicolon
+
+Import traces:
+  Client Component Browser:
+    ./components/task-form.tsx [Client Component Browser]
+    ./components/dashboard-page.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/task-form.tsx [Client Component SSR]
+    ./components/dashboard-page.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[01:07:41.746] Browser ERROR   ./components/task-form.tsx:86:5
+Parsing ecmascript source code failed
+  84 |       setIsLoading(false)
+  85 |     }
+> 86 |   } setDeadline("")
+     |     ^^^^^^^^^^^
+  87 |     setPriority("medium")
+  88 |   }
+  89 |
+
+Expected a semicolon
+
+Import traces:
+  Client Component Browser:
+    ./components/task-form.tsx [Client Component Browser]
+    ./components/dashboard-page.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/task-form.tsx [Client Component SSR]
+    ./components/dashboard-page.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[01:07:49.426] Server  LOG      ✓ Compiled in 277ms
+[01:07:50.497] Browser ERROR   ./components/task-form.tsx:86:5
+Parsing ecmascript source code failed
+  84 |       setIsLoading(false)
+  85 |     }
+> 86 |   } setDeadline("")
+     |     ^^^^^^^^^^^
+  87 |     setPriority("medium")
+  88 |   }
+  89 |
+
+Expected a semicolon
+
+Import traces:
+  Client Component Browser:
+    ./components/task-form.tsx [Client Component Browser]
+    ./components/dashboard-page.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/task-form.tsx [Client Component SSR]
+    ./components/dashboard-page.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[01:07:50.560] Server  LOG      ✓ Compiled in 316ms
+[01:07:52.100] Browser ERROR   ./components/task-form.tsx:86:5
+Parsing ecmascript source code failed
+  84 |       setIsLoading(false)
+  85 |     }
+> 86 |   } setDeadline("")
+     |     ^^^^^^^^^^^
+  87 |     setPriority("medium")
+  88 |   }
+  89 |
+
+Expected a semicolon
+
+Import traces:
+  Client Component Browser:
+    ./components/task-form.tsx [Client Component Browser]
+    ./components/dashboard-page.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/task-form.tsx [Client Component SSR]
+    ./components/dashboard-page.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[01:07:52.100] Browser ERROR   ./components/task-card.tsx:5:1
+Export taskService doesn't exist in target module
+  3 | import type { Task } from "./dashboard-page"
+  4 | import { Button } from "@/components/ui/button"
+> 5 | import { taskService } from "@/lib/service/taskService"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { useState } from "react"
+  7 |
+  8 | interface TaskCardProps {
+
+The export taskService was not found in module [project]/lib/service/taskService.ts [app-client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./components/task-card.tsx [Client Component Browser]
+    ./components/task-list.tsx [Client Component Browser]
+    ./components/dashboard-page.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/task-card.tsx [Client Component SSR]
+    ./components/task-list.tsx [Client Component SSR]
+    ./components/dashboard-page.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[01:07:52.100] Browser ERROR   ./components/task-card.tsx:5:1
+Export taskService doesn't exist in target module
+  3 | import type { Task } from "./dashboard-page"
+  4 | import { Button } from "@/components/ui/button"
+> 5 | import { taskService } from "@/lib/service/taskService"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { useState } from "react"
+  7 |
+  8 | interface TaskCardProps {
+
+The export taskService was not found in module [project]/lib/service/taskService.ts [app-ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./components/task-card.tsx [Client Component Browser]
+    ./components/task-list.tsx [Client Component Browser]
+    ./components/dashboard-page.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/task-card.tsx [Client Component SSR]
+    ./components/task-list.tsx [Client Component SSR]
+    ./components/dashboard-page.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[01:07:52.183] Server  LOG      ✓ Compiled in 759ms
+[01:07:52.520] Browser ERROR   ./components/task-card.tsx:62:13
+Parsing ecmascript source code failed
+  60 |           className="w-5 h-5 rounded border border-border text-primary focus:ring-2 focus:ring-primary cursor-pointer accent-primary disabled:opacity-50 disabled:cursor-not-allowed"
+  61 |         />
+> 62 |       </div>rn "bg-muted text-muted-foreground"
+     |             ^^
+  63 |     }
+  64 |   }
+  65 |
+
+Expected ';', '}' or <eof>
+
+Import traces:
+  Client Component Browser:
+    ./components/task-card.tsx [Client Component Browser]
+    ./components/task-list.tsx [Client Component Browser]
+    ./components/dashboard-page.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/task-card.tsx [Client Component SSR]
+    ./components/task-list.tsx [Client Component SSR]
+    ./components/dashboard-page.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[01:07:52.520] Browser ERROR   ./components/task-form.tsx:86:5
+Parsing ecmascript source code failed
+  84 |       setIsLoading(false)
+  85 |     }
+> 86 |   } setDeadline("")
+     |     ^^^^^^^^^^^
+  87 |     setPriority("medium")
+  88 |   }
+  89 |
+
+Expected a semicolon
+
+Import traces:
+  Client Component Browser:
+    ./components/task-form.tsx [Client Component Browser]
+    ./components/dashboard-page.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/task-form.tsx [Client Component SSR]
+    ./components/dashboard-page.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[01:07:52.520] Browser ERROR   ./components/task-card.tsx:5:1
+Export taskService doesn't exist in target module
+  3 | import type { Task } from "./dashboard-page"
+  4 | import { Button } from "@/components/ui/button"
+> 5 | import { taskService } from "@/lib/service/taskService"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { useState } from "react"
+  7 |
+  8 | interface TaskCardProps {
+
+The export taskService was not found in module [project]/lib/service/taskService.ts [app-client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./components/task-card.tsx [Client Component Browser]
+    ./components/task-list.tsx [Client Component Browser]
+    ./components/dashboard-page.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/task-card.tsx [Client Component SSR]
+    ./components/task-list.tsx [Client Component SSR]
+    ./components/dashboard-page.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[01:07:52.520] Browser ERROR   ./components/task-card.tsx:5:1
+Export taskService doesn't exist in target module
+  3 | import type { Task } from "./dashboard-page"
+  4 | import { Button } from "@/components/ui/button"
+> 5 | import { taskService } from "@/lib/service/taskService"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { useState } from "react"
+  7 |
+  8 | interface TaskCardProps {
+
+The export taskService was not found in module [project]/lib/service/taskService.ts [app-ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./components/task-card.tsx [Client Component Browser]
+    ./components/task-list.tsx [Client Component Browser]
+    ./components/dashboard-page.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/task-card.tsx [Client Component SSR]
+    ./components/task-list.tsx [Client Component SSR]
+    ./components/dashboard-page.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[01:07:53.689] Browser ERROR   ./components/task-card.tsx:62:13
+Parsing ecmascript source code failed
+  60 |           className="w-5 h-5 rounded border border-border text-primary focus:ring-2 focus:ring-primary cursor-pointer accent-primary disabled:opacity-50 disabled:cursor-not-allowed"
+  61 |         />
+> 62 |       </div>rn "bg-muted text-muted-foreground"
+     |             ^^
+  63 |     }
+  64 |   }
+  65 |
+
+Expected ';', '}' or <eof>
+
+Import traces:
+  Client Component Browser:
+    ./components/task-card.tsx [Client Component Browser]
+    ./components/task-list.tsx [Client Component Browser]
+    ./components/dashboard-page.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/task-card.tsx [Client Component SSR]
+    ./components/task-list.tsx [Client Component SSR]
+    ./components/dashboard-page.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[01:07:53.689] Browser ERROR   ./components/task-form.tsx:86:5
+Parsing ecmascript source code failed
+  84 |       setIsLoading(false)
+  85 |     }
+> 86 |   } setDeadline("")
+     |     ^^^^^^^^^^^
+  87 |     setPriority("medium")
+  88 |   }
+  89 |
+
+Expected a semicolon
+
+Import traces:
+  Client Component Browser:
+    ./components/task-form.tsx [Client Component Browser]
+    ./components/dashboard-page.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/task-form.tsx [Client Component SSR]
+    ./components/dashboard-page.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[01:07:53.689] Browser ERROR   ./components/task-card.tsx:5:1
+Export taskService doesn't exist in target module
+  3 | import type { Task } from "./dashboard-page"
+  4 | import { Button } from "@/components/ui/button"
+> 5 | import { taskService } from "@/lib/service/taskService"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { useState } from "react"
+  7 |
+  8 | interface TaskCardProps {
+
+The export taskService was not found in module [project]/lib/service/taskService.ts [app-client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./components/task-card.tsx [Client Component Browser]
+    ./components/task-list.tsx [Client Component Browser]
+    ./components/dashboard-page.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/task-card.tsx [Client Component SSR]
+    ./components/task-list.tsx [Client Component SSR]
+    ./components/dashboard-page.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[01:07:53.689] Browser ERROR   ./components/task-card.tsx:5:1
+Export taskService doesn't exist in target module
+  3 | import type { Task } from "./dashboard-page"
+  4 | import { Button } from "@/components/ui/button"
+> 5 | import { taskService } from "@/lib/service/taskService"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { useState } from "react"
+  7 |
+  8 | interface TaskCardProps {
+
+The export taskService was not found in module [project]/lib/service/taskService.ts [app-ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./components/task-card.tsx [Client Component Browser]
+    ./components/task-list.tsx [Client Component Browser]
+    ./components/dashboard-page.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/task-card.tsx [Client Component SSR]
+    ./components/task-list.tsx [Client Component SSR]
+    ./components/dashboard-page.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[01:09:00.018] Server  LOG      ✓ Compiled in 280ms
+[01:09:00.507] Browser ERROR   ./components/task-card.tsx:62:13
+Parsing ecmascript source code failed
+  60 |           className="w-5 h-5 rounded border border-border text-primary focus:ring-2 focus:ring-primary cursor-pointer accent-primary disabled:opacity-50 disabled:cursor-not-allowed"
+  61 |         />
+> 62 |       </div>rn "bg-muted text-muted-foreground"
+     |             ^^
+  63 |     }
+  64 |   }
+  65 |
+
+Expected ';', '}' or <eof>
+
+Import traces:
+  Client Component Browser:
+    ./components/task-card.tsx [Client Component Browser]
+    ./components/task-list.tsx [Client Component Browser]
+    ./components/dashboard-page.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/task-card.tsx [Client Component SSR]
+    ./components/task-list.tsx [Client Component SSR]
+    ./components/dashboard-page.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[01:09:00.508] Browser ERROR   ./components/task-form.tsx:86:5
+Parsing ecmascript source code failed
+  84 |       setIsLoading(false)
+  85 |     }
+> 86 |   } setDeadline("")
+     |     ^^^^^^^^^^^
+  87 |     setPriority("medium")
+  88 |   }
+  89 |
+
+Expected a semicolon
+
+Import traces:
+  Client Component Browser:
+    ./components/task-form.tsx [Client Component Browser]
+    ./components/dashboard-page.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/task-form.tsx [Client Component SSR]
+    ./components/dashboard-page.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[01:09:48.306] Server  LOG      ✓ Compiled in 244ms
+[01:09:48.505] Browser ERROR   ./components/task-card.tsx:62:13
+Parsing ecmascript source code failed
+  60 |           className="w-5 h-5 rounded border border-border text-primary focus:ring-2 focus:ring-primary cursor-pointer accent-primary disabled:opacity-50 disabled:cursor-not-allowed"
+  61 |         />
+> 62 |       </div>rn "bg-muted text-muted-foreground"
+     |             ^^
+  63 |     }
+  64 |   }
+  65 |
+
+Expected ';', '}' or <eof>
+
+Import traces:
+  Client Component Browser:
+    ./components/task-card.tsx [Client Component Browser]
+    ./components/task-list.tsx [Client Component Browser]
+    ./components/dashboard-page.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/task-card.tsx [Client Component SSR]
+    ./components/task-list.tsx [Client Component SSR]
+    ./components/dashboard-page.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[01:09:48.505] Browser ERROR   ./components/task-form.tsx:86:5
+Parsing ecmascript source code failed
+  84 |       setIsLoading(false)
+  85 |     }
+> 86 |   } setDeadline("")
+     |     ^^^^^^^^^^^
+  87 |     setPriority("medium")
+  88 |   }
+  89 |
+
+Expected a semicolon
+
+Import traces:
+  Client Component Browser:
+    ./components/task-form.tsx [Client Component Browser]
+    ./components/dashboard-page.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/task-form.tsx [Client Component SSR]
+    ./components/dashboard-page.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[01:10:06.332] Server  LOG      ✓ Compiled in 213ms
+[01:10:06.505] Browser ERROR   ./components/task-card.tsx:62:13
+Parsing ecmascript source code failed
+  60 |           className="w-5 h-5 rounded border border-border text-primary focus:ring-2 focus:ring-primary cursor-pointer accent-primary disabled:opacity-50 disabled:cursor-not-allowed"
+  61 |         />
+> 62 |       </div>rn "bg-muted text-muted-foreground"
+     |             ^^
+  63 |     }
+  64 |   }
+  65 |
+
+Expected ';', '}' or <eof>
+
+Import traces:
+  Client Component Browser:
+    ./components/task-card.tsx [Client Component Browser]
+    ./components/task-list.tsx [Client Component Browser]
+    ./components/dashboard-page.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/task-card.tsx [Client Component SSR]
+    ./components/task-list.tsx [Client Component SSR]
+    ./components/dashboard-page.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[01:10:06.505] Browser ERROR   ./components/task-form.tsx:86:5
+Parsing ecmascript source code failed
+  84 |       setIsLoading(false)
+  85 |     }
+> 86 |   } setDeadline("")
+     |     ^^^^^^^^^^^
+  87 |     setPriority("medium")
+  88 |   }
+  89 |
+
+Expected a semicolon
+
+Import traces:
+  Client Component Browser:
+    ./components/task-form.tsx [Client Component Browser]
+    ./components/dashboard-page.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/task-form.tsx [Client Component SSR]
+    ./components/dashboard-page.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[01:12:47.559] Browser ERROR   ./components/task-card.tsx:62:13
+Parsing ecmascript source code failed
+  60 |           className="w-5 h-5 rounded border border-border text-primary focus:ring-2 focus:ring-primary cursor-pointer accent-primary disabled:opacity-50 disabled:cursor-not-allowed"
+  61 |         />
+> 62 |       </div>rn "bg-muted text-muted-foreground"
+     |             ^^
+  63 |     }
+  64 |   }
+  65 |
+
+Expected ';', '}' or <eof>
+
+Import traces:
+  Client Component Browser:
+    ./components/task-card.tsx [Client Component Browser]
+    ./components/task-list.tsx [Client Component Browser]
+    ./components/dashboard-page.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/task-card.tsx [Client Component SSR]
+    ./components/task-list.tsx [Client Component SSR]
+    ./components/dashboard-page.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[01:12:47.559] Browser ERROR   ./components/task-form.tsx:87:5
+Parsing ecmascript source code failed
+  85 |       setIsLoading(false)
+  86 |     }
+> 87 |   } setDeadline("")
+     |     ^^^^^^^^^^^
+  88 |     setPriority("medium")
+  89 |   }
+  90 |
+
+Expected a semicolon
+
+Import traces:
+  Client Component Browser:
+    ./components/task-form.tsx [Client Component Browser]
+    ./components/dashboard-page.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/task-form.tsx [Client Component SSR]
+    ./components/dashboard-page.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[01:12:47.559] Browser ERROR   ./components/task-form.tsx:91:3
+Parsing ecmascript source code failed
+   89 |   }
+   90 |
+>  91 |   return (
+      |   ^^^^^^^^
+>  92 |     <div>
+      | ^^^^^^^^^
+>  93 |       <h2 className="text-xl font-semibold text-foreground mb-6">{initialTask ? "Edit Task" : "Create New Task"}</h2>
+      | ^^^^^^^^^
+>  94 |
+      | ^^^^^^^^^
+>  95 |       <form onSubmit={handleSubmit} className="space-y-5">
+      | ^^^^^^^^^
+>  96 |         <div>
+      | ^^^^^^^^^
+>  97 |           <label htmlFor="title" className="block text-sm font-medium text-foreground mb-2">
+      | ^^^^^^^^^
+>  98 |             Task Title *
+      | ^^^^^^^^^
+>  99 |           </label>
+      | ^^^^^^^^^
+> 100 |           <input
+      | ^^^^^^^^^
+> 101 |             id="title"
+      | ^^^^^^^^^
+> 102 |             type="text"
+      | ^^^^^^^^^
+> 103 |             placeholder="Enter task title"
+      | ^^^^^^^^^
+> 104 |             value={title}
+      | ^^^^^^^^^
+> 105 |             onChange={(e) => setTitle(e.target.value)}
+      | ^^^^^^^^^
+> 106 |             className="w-full px-4 py-2 bg-input border border-border rounded-lg text-foreground placeholder-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent transition-all"
+      | ^^^^^^^^^
+> 107 |           />
+      | ^^^^^^^^^
+> 108 |         </div>
+      | ^^^^^^^^^
+> 109 |
+      | ^^^^^^^^^
+> 110 |         <div>
+      | ^^^^^^^^^
+> 111 |           <label htmlFor="description" className="block text-sm font-medium text-foreground mb-2">
+      | ^^^^^^^^^
+> 112 |             Description (Optional)
+      | ^^^^^^^^^
+> 113 |           </label>
+      | ^^^^^^^^^
+> 114 |           <textarea
+      | ^^^^^^^^^
+> 115 |             id="description"
+      | ^^^^^^^^^
+> 116 |             placeholder="Enter task description"
+      | ^^^^^^^^^
+> 117 |             value={description}
+      | ^^^^^^^^^
+> 118 |             onChange={(e) => setDescription(e.target.value)}
+      | ^^^^^^^^^
+> 119 |             rows={3}
+      | ^^^^^^^^^
+> 120 |             className="w-full px-4 py-2 bg-input border border-border rounded-lg text-foreground placeholder-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent resize-none transition-all"
+      | ^^^^^^^^^
+> 121 |           />
+      | ^^^^^^^^^
+> 122 |         </div>
+      | ^^^^^^^^^
+> 123 |
+      | ^^^^^^^^^
+> 124 |         <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
+      | ^^^^^^^^^
+> 125 |           <div>
+      | ^^^^^^^^^
+> 126 |             <label htmlFor="deadline" className="block text-sm font-medium text-foreground mb-2">
+      | ^^^^^^^^^
+> 127 |               Deadline *
+      | ^^^^^^^^^
+> 128 |             </label>
+      | ^^^^^^^^^
+> 129 |             <input
+      | ^^^^^^^^^
+> 130 |               id="deadline"
+      | ^^^^^^^^^
+> 131 |               type="date"
+      | ^^^^^^^^^
+> 132 |               value={deadline}
+      | ^^^^^^^^^
+> 133 |               onChange={(e) => setDeadline(e.target.value)}
+      | ^^^^^^^^^
+> 134 |               className="w-full px-4 py-2 bg-input border border-border rounded-lg text-foreground focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent transition-all"
+      | ^^^^^^^^^
+> 135 |             />
+      | ^^^^^^^^^
+> 136 |           </div>
+      | ^^^^^^^^^
+> 137 |
+      | ^^^^^^^^^
+> 138 |           <div>
+      | ^^^^^^^^^
+> 139 |             <label htmlFor="priority" className="block text-sm font-medium text-foreground mb-2">
+      | ^^^^^^^^^
+> 140 |               Priority
+      | ^^^^^^^^^
+> 141 |             </label>
+      | ^^^^^^^^^
+> 142 |             <select
+      | ^^^^^^^^^
+> 143 |               id="priority"
+      | ^^^^^^^^^
+> 144 |               value={priority}
+      | ^^^^^^^^^
+> 145 |               onChange={(e) => setPriority(e.target.value as "low" | "medium" | "high")}
+      | ^^^^^^^^^
+> 146 |               className="w-full px-4 py-2 bg-input border border-border rounded-lg text-foreground focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent transition-all"
+      | ^^^^^^^^^
+> 147 |             >
+      | ^^^^^^^^^
+> 148 |               <option value="low">Low Priority</option>
+      | ^^^^^^^^^
+> 149 |               <option value="medium">Medium Priority</option>
+      | ^^^^^^^^^
+> 150 |               <option value="high">High Priority</option>
+      | ^^^^^^^^^
+> 151 |             </select>
+      | ^^^^^^^^^
+> 152 |           </div>
+      | ^^^^^^^^^
+> 153 |         </div>
+      | ^^^^^^^^^
+> 154 |
+      | ^^^^^^^^^
+> 155 |         {error && (
+      | ^^^^^^^^^
+> 156 |           <div className="p-3 bg-destructive/10 text-destructive rounded-lg text-sm border border-destructive/20">
+      | ^^^^^^^^^
+> 157 |             {error}
+      | ^^^^^^^^^
+> 158 |           </div>
+      | ^^^^^^^^^
+> 159 |         )}
+      | ^^^^^^^^^
+> 160 |
+      | ^^^^^^^^^
+> 161 |         <div className="flex gap-3 justify-end pt-2">
+      | ^^^^^^^^^
+> 162 |           <Button type="submit" disabled={isLoading} className="bg-primary text-primary-foreground hover:bg-primary/90 px-6">
+      | ^^^^^^^^^
+> 163 |             {isLoading ? "Saving..." : initialTask ? "Update Task" : "Create Task"}
+      | ^^^^^^^^^
+> 164 |           </Button>
+      | ^^^^^^^^^
+> 165 |         </div>
+      | ^^^^^^^^^
+> 166 |       </form>
+      | ^^^^^^^^^
+> 167 |     </div>
+      | ^^^^^^^^^
+> 168 |   )
+      | ^^^^
+  169 | }
+  170 |
+
+Return statement is not allowed here
+
+Import traces:
+  Client Component Browser:
+    ./components/task-form.tsx [Client Component Browser]
+    ./components/dashboard-page.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/task-form.tsx [Client Component SSR]
+    ./components/dashboard-page.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[01:12:48.415] Server  LOG      ✓ Compiled in 133ms
+[01:12:49.505] Browser ERROR   ./components/task-card.tsx:62:13
+Parsing ecmascript source code failed
+  60 |           className="w-5 h-5 rounded border border-border text-primary focus:ring-2 focus:ring-primary cursor-pointer accent-primary disabled:opacity-50 disabled:cursor-not-allowed"
+  61 |         />
+> 62 |       </div>rn "bg-muted text-muted-foreground"
+     |             ^^
+  63 |     }
+  64 |   }
+  65 |
+
+Expected ';', '}' or <eof>
+
+Import traces:
+  Client Component Browser:
+    ./components/task-card.tsx [Client Component Browser]
+    ./components/task-list.tsx [Client Component Browser]
+    ./components/dashboard-page.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/task-card.tsx [Client Component SSR]
+    ./components/task-list.tsx [Client Component SSR]
+    ./components/dashboard-page.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[01:13:11.844] Server  LOG      ✓ Compiled in 235ms
+[01:13:12.542] Browser ERROR   ./components/task-card.tsx:109:17
+Parsing ecmascript source code failed
+  107 |           {isDeleting ? "Deleting..." : "Delete"}
+  108 |         </Button>
+> 109 |       </div>span>
+      |                 ^
+  110 |         </div>
+  111 |
+  112 |         {task.description && <p className="text-sm text-muted-foreground mb-3 line-clamp-2">{task.description}</p>}
+
+Unexpected token. Did you mean `{'>'}` or `&gt;`?
+
+Import traces:
+  Client Component Browser:
+    ./components/task-card.tsx [Client Component Browser]
+    ./components/task-list.tsx [Client Component Browser]
+    ./components/dashboard-page.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/task-card.tsx [Client Component SSR]
+    ./components/task-list.tsx [Client Component SSR]
+    ./components/dashboard-page.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[01:13:13.060] Server  LOG      ✓ Compiled in 275ms
+[01:13:13.548] Browser ERROR   ./components/task-card.tsx:112:1
+Parsing ecmascript source code failed
+  110 |     </div>
+  111 |   )
+> 112 | }
+      | ^
+  113 |
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+
+Import traces:
+  Client Component Browser:
+    ./components/task-card.tsx [Client Component Browser]
+    ./components/task-list.tsx [Client Component Browser]
+    ./components/dashboard-page.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/task-card.tsx [Client Component SSR]
+    ./components/task-list.tsx [Client Component SSR]
+    ./components/dashboard-page.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[01:14:04.672] Browser ERROR   Create task error: {"code":"ERR_BAD_REQUEST","config":{"adapter":["xhr","http","fetch"],"allowAbsoluteUrls":true,"baseURL":"http://localhost:5000/api/tasks","data":"{\"title\":\"scscs\",\"description\":\"qsfqsf\",\"deadline\":\"2025-12-16\",\"priority\":\"high\"}","env":{},"headers":{"Accept":"application/json, text/plain, */*","Authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5MzNmOWZkMmYyOGMyYTVjZGIyZGQ1ZSIsImlhdCI6MTc2NTAxNDI5OCwiZXhwIjoxNzY1NjE5MDk4fQ.KwOXMdULVlH90tPImjWxH4qgdquW5P4_HjHsRDIvusQ","Content-Type":"application/json"},"maxBodyLength":-1,"maxContentLength":-1,"method":"post","timeout":0,"transformRequest":[null],"transformResponse":[null],"transitional":{"clarifyTimeoutError":false,"forcedJSONParsing":true,"silentJSONParsing":true},"url":"tasks","xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN"},"message":"Request failed with status code 404","name":"AxiosError","stack":"AxiosError: Request failed with status code 404\n    at settle (http://localhost:3000/_next/static/chunks/node_modules_66ba6bc8._.js:7694:16)\n    at XMLHttpRequest.onloadend (http://localhost:3000/_next/static/chunks/node_modules_66ba6bc8._.js:8209:174)\n    at Axios.request (http://localhost:3000/_next/static/chunks/node_modules_66ba6bc8._.js:9013:49)\n    at async Object.createTask (http://localhost:3000/_next/static/chunks/_7128ffca._.js?id=%255Bproject%255D%252Flib%252Fservice%252FtaskService.ts+%255Bapp-client%255D+%2528ecmascript%2529:29:30)\n    at async handleSubmit (http://localhost:3000/_next/static/chunks/_7128ffca._.js?id=%255Bproject%255D%252Fcomponents%252Ftask-form.tsx+%255Bapp-client%255D+%2528ecmascript%2529:72:33)","status":404}
+[01:14:04.673] Browser ERROR   {"code":"ERR_BAD_REQUEST","config":{"adapter":["xhr","http","fetch"],"allowAbsoluteUrls":true,"baseURL":"http://localhost:5000/api/tasks","data":"{\"title\":\"scscs\",\"description\":\"qsfqsf\",\"deadline\":\"2025-12-16\",\"priority\":\"high\"}","env":{},"headers":{"Accept":"application/json, text/plain, */*","Authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5MzNmOWZkMmYyOGMyYTVjZGIyZGQ1ZSIsImlhdCI6MTc2NTAxNDI5OCwiZXhwIjoxNzY1NjE5MDk4fQ.KwOXMdULVlH90tPImjWxH4qgdquW5P4_HjHsRDIvusQ","Content-Type":"application/json"},"maxBodyLength":-1,"maxContentLength":-1,"method":"post","timeout":0,"transformRequest":[null],"transformResponse":[null],"transitional":{"clarifyTimeoutError":false,"forcedJSONParsing":true,"silentJSONParsing":true},"url":"tasks","xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN"},"message":"Request failed with status code 404","name":"AxiosError","stack":"AxiosError: Request failed with status code 404\n    at settle (http://localhost:3000/_next/static/chunks/node_modules_66ba6bc8._.js:7694:16)\n    at XMLHttpRequest.onloadend (http://localhost:3000/_next/static/chunks/node_modules_66ba6bc8._.js:8209:174)\n    at Axios.request (http://localhost:3000/_next/static/chunks/node_modules_66ba6bc8._.js:9013:49)\n    at async Object.createTask (http://localhost:3000/_next/static/chunks/_7128ffca._.js?id=%255Bproject%255D%252Flib%252Fservice%252FtaskService.ts+%255Bapp-client%255D+%2528ecmascript%2529:29:30)\n    at async handleSubmit (http://localhost:3000/_next/static/chunks/_7128ffca._.js?id=%255Bproject%255D%252Fcomponents%252Ftask-form.tsx+%255Bapp-client%255D+%2528ecmascript%2529:72:33)","status":404}
+[01:14:28.087] Server  LOG      ✓ Compiled in 312ms
+[01:14:31.207] Server  LOG      ✓ Compiled in 479ms
+[01:14:35.087] Browser ERROR   uncaughtError: TypeError: Cannot read properties of undefined (reading 'charAt')
+[01:14:42.855] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:14:43.668] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:14:43.668] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[01:14:43.668] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1765015105875}
+[01:14:57.990] Browser ERROR   uncaughtError: TypeError: Cannot read properties of undefined (reading 'charAt')
+[01:16:01.924] Server  LOG      ✓ Compiled in 354ms
+[01:16:02.049] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:16:04.783] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:16:06.502] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:16:06.502] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[01:16:06.502] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1765015187880}
+[01:16:33.044] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:16:34.539] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:16:34.547] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[01:16:34.547] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1765015216477}
+[01:17:17.308] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:17:17.787] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:17:17.787] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[01:17:17.787] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1765015259922}
+[01:19:23.656] Server  LOG      ✓ Compiled in 509ms
+[01:19:24.603] Server  LOG      ✓ Compiled in 288ms
+[01:19:25.545] Browser ERROR   Each child in a list should have a unique "key" prop.%s%s See https://react.dev/link/warning-keys for more information. 
+
+Check the render method of `div`.  It was passed a child from TaskList.
+[01:19:25.685] Server  LOG      ✓ Compiled in 203ms
+[01:19:26.514] Browser ERROR   ./components/dashboard-page.tsx:185:2
+Parsing ecmascript source code failed
+  183 |     </div>
+  184 |   )
+> 185 | }
+      |  ^
+  186 |
+
+Expected '}', got '<eof>'
+
+Import traces:
+  Client Component Browser:
+    ./components/dashboard-page.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/dashboard-page.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[01:19:26.514] Browser ERROR   ./components/dashboard-page.tsx:75:5
+Parsing ecmascript source code failed
+  73 |     // Just update local state
+  74 |     setTasks(tasks.map((t) => (t.id === id ? { ...t, completed: !t.completed } : t)))
+> 75 |   } setTasks(tasks.map((t) => (t.id === updatedTask.id ? updatedTask : t)))
+     |     ^^^^^^^^
+  76 |     setEditingTask(null)
+  77 |     setShowForm(false)
+  78 |   }
+
+Expected a semicolon
+
+Import traces:
+  Client Component Browser:
+    ./components/dashboard-page.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/dashboard-page.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[01:19:39.756] Browser ERROR   ./components/dashboard-page.tsx:206:2
+Parsing ecmascript source code failed
+  204 |     </div>
+  205 |   )
+> 206 | }
+      |  ^
+  207 |
+
+Expected '}', got '<eof>'
+
+Import traces:
+  Client Component Browser:
+    ./components/dashboard-page.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/dashboard-page.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[01:19:39.756] Browser ERROR   ./components/dashboard-page.tsx:75:5
+Parsing ecmascript source code failed
+  73 |     // Just update local state
+  74 |     setTasks(tasks.map((t) => (t.id === id ? { ...t, completed: !t.completed } : t)))
+> 75 |   } setTasks(tasks.map((t) => (t.id === updatedTask.id ? updatedTask : t)))
+     |     ^^^^^^^^
+  76 |     setEditingTask(null)
+  77 |     setShowForm(false)
+  78 |   }
+
+Expected a semicolon
+
+Import traces:
+  Client Component Browser:
+    ./components/dashboard-page.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/dashboard-page.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[01:21:15.628] Server  LOG      ✓ Compiled in 251ms
+[01:22:26.486] Browser ERROR   Toggle task error: {"code":"ERR_BAD_RESPONSE","config":{"adapter":["xhr","http","fetch"],"allowAbsoluteUrls":true,"baseURL":"http://localhost:5000/api/","data":"{\"completed\":true}","env":{},"headers":{"Accept":"application/json, text/plain, */*","Authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5MzNmOWZkMmYyOGMyYTVjZGIyZGQ1ZSIsImlhdCI6MTc2NTAxNDI5OCwiZXhwIjoxNzY1NjE5MDk4fQ.KwOXMdULVlH90tPImjWxH4qgdquW5P4_HjHsRDIvusQ","Content-Type":"application/json"},"maxBodyLength":-1,"maxContentLength":-1,"method":"put","timeout":0,"transformRequest":[null],"transformResponse":[null],"transitional":{"clarifyTimeoutError":false,"forcedJSONParsing":true,"silentJSONParsing":true},"url":"tasks/undefined","xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN"},"message":"Request failed with status code 500","name":"AxiosError","stack":"AxiosError: Request failed with status code 500\n    at settle (http://localhost:3000/_next/static/chunks/node_modules_66ba6bc8._.js:7694:16)\n    at XMLHttpRequest.onloadend (http://localhost:3000/_next/static/chunks/node_modules_66ba6bc8._.js:8209:174)\n    at Axios.request (http://localhost:3000/_next/static/chunks/node_modules_66ba6bc8._.js:9013:49)\n    at async Object.toggleTaskComplete (http://localhost:3000/_next/static/chunks/_7128ffca._.js:1173:30)\n    at async handleToggleComplete (http://localhost:3000/_next/static/chunks/_7128ffca._.js:1223:13)","status":500}
+[01:22:26.486] Browser ERROR   Toggle failed: {"code":"ERR_BAD_RESPONSE","config":{"adapter":["xhr","http","fetch"],"allowAbsoluteUrls":true,"baseURL":"http://localhost:5000/api/","data":"{\"completed\":true}","env":{},"headers":{"Accept":"application/json, text/plain, */*","Authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5MzNmOWZkMmYyOGMyYTVjZGIyZGQ1ZSIsImlhdCI6MTc2NTAxNDI5OCwiZXhwIjoxNzY1NjE5MDk4fQ.KwOXMdULVlH90tPImjWxH4qgdquW5P4_HjHsRDIvusQ","Content-Type":"application/json"},"maxBodyLength":-1,"maxContentLength":-1,"method":"put","timeout":0,"transformRequest":[null],"transformResponse":[null],"transitional":{"clarifyTimeoutError":false,"forcedJSONParsing":true,"silentJSONParsing":true},"url":"tasks/undefined","xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN"},"message":"Request failed with status code 500","name":"AxiosError","stack":"AxiosError: Request failed with status code 500\n    at settle (http://localhost:3000/_next/static/chunks/node_modules_66ba6bc8._.js:7694:16)\n    at XMLHttpRequest.onloadend (http://localhost:3000/_next/static/chunks/node_modules_66ba6bc8._.js:8209:174)\n    at Axios.request (http://localhost:3000/_next/static/chunks/node_modules_66ba6bc8._.js:9013:49)\n    at async Object.toggleTaskComplete (http://localhost:3000/_next/static/chunks/_7128ffca._.js:1173:30)\n    at async handleToggleComplete (http://localhost:3000/_next/static/chunks/_7128ffca._.js:1223:13)","status":500}
+[01:22:36.972] Browser ERROR   Toggle task error: {"code":"ERR_BAD_RESPONSE","config":{"adapter":["xhr","http","fetch"],"allowAbsoluteUrls":true,"baseURL":"http://localhost:5000/api/","data":"{\"completed\":true}","env":{},"headers":{"Accept":"application/json, text/plain, */*","Authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5MzNmOWZkMmYyOGMyYTVjZGIyZGQ1ZSIsImlhdCI6MTc2NTAxNDI5OCwiZXhwIjoxNzY1NjE5MDk4fQ.KwOXMdULVlH90tPImjWxH4qgdquW5P4_HjHsRDIvusQ","Content-Type":"application/json"},"maxBodyLength":-1,"maxContentLength":-1,"method":"put","timeout":0,"transformRequest":[null],"transformResponse":[null],"transitional":{"clarifyTimeoutError":false,"forcedJSONParsing":true,"silentJSONParsing":true},"url":"tasks/undefined","xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN"},"message":"Request failed with status code 500","name":"AxiosError","stack":"AxiosError: Request failed with status code 500\n    at settle (http://localhost:3000/_next/static/chunks/node_modules_66ba6bc8._.js:7694:16)\n    at XMLHttpRequest.onloadend (http://localhost:3000/_next/static/chunks/node_modules_66ba6bc8._.js:8209:174)\n    at Axios.request (http://localhost:3000/_next/static/chunks/node_modules_66ba6bc8._.js:9013:49)\n    at async Object.toggleTaskComplete (http://localhost:3000/_next/static/chunks/_7128ffca._.js:1173:30)\n    at async handleToggleComplete (http://localhost:3000/_next/static/chunks/_7128ffca._.js:1223:13)","status":500}
+[01:22:36.972] Browser ERROR   Toggle failed: {"code":"ERR_BAD_RESPONSE","config":{"adapter":["xhr","http","fetch"],"allowAbsoluteUrls":true,"baseURL":"http://localhost:5000/api/","data":"{\"completed\":true}","env":{},"headers":{"Accept":"application/json, text/plain, */*","Authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5MzNmOWZkMmYyOGMyYTVjZGIyZGQ1ZSIsImlhdCI6MTc2NTAxNDI5OCwiZXhwIjoxNzY1NjE5MDk4fQ.KwOXMdULVlH90tPImjWxH4qgdquW5P4_HjHsRDIvusQ","Content-Type":"application/json"},"maxBodyLength":-1,"maxContentLength":-1,"method":"put","timeout":0,"transformRequest":[null],"transformResponse":[null],"transitional":{"clarifyTimeoutError":false,"forcedJSONParsing":true,"silentJSONParsing":true},"url":"tasks/undefined","xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN"},"message":"Request failed with status code 500","name":"AxiosError","stack":"AxiosError: Request failed with status code 500\n    at settle (http://localhost:3000/_next/static/chunks/node_modules_66ba6bc8._.js:7694:16)\n    at XMLHttpRequest.onloadend (http://localhost:3000/_next/static/chunks/node_modules_66ba6bc8._.js:8209:174)\n    at Axios.request (http://localhost:3000/_next/static/chunks/node_modules_66ba6bc8._.js:9013:49)\n    at async Object.toggleTaskComplete (http://localhost:3000/_next/static/chunks/_7128ffca._.js:1173:30)\n    at async handleToggleComplete (http://localhost:3000/_next/static/chunks/_7128ffca._.js:1223:13)","status":500}
+[01:23:13.785] Browser ERROR   Toggle task error: {"code":"ERR_BAD_RESPONSE","config":{"adapter":["xhr","http","fetch"],"allowAbsoluteUrls":true,"baseURL":"http://localhost:5000/api/","data":"{\"completed\":true}","env":{},"headers":{"Accept":"application/json, text/plain, */*","Authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5MzNmOWZkMmYyOGMyYTVjZGIyZGQ1ZSIsImlhdCI6MTc2NTAxNDI5OCwiZXhwIjoxNzY1NjE5MDk4fQ.KwOXMdULVlH90tPImjWxH4qgdquW5P4_HjHsRDIvusQ","Content-Type":"application/json"},"maxBodyLength":-1,"maxContentLength":-1,"method":"put","timeout":0,"transformRequest":[null],"transformResponse":[null],"transitional":{"clarifyTimeoutError":false,"forcedJSONParsing":true,"silentJSONParsing":true},"url":"tasks/undefined","xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN"},"message":"Request failed with status code 500","name":"AxiosError","stack":"AxiosError: Request failed with status code 500\n    at settle (http://localhost:3000/_next/static/chunks/node_modules_66ba6bc8._.js:7694:16)\n    at XMLHttpRequest.onloadend (http://localhost:3000/_next/static/chunks/node_modules_66ba6bc8._.js:8209:174)\n    at Axios.request (http://localhost:3000/_next/static/chunks/node_modules_66ba6bc8._.js:9013:49)\n    at async Object.toggleTaskComplete (http://localhost:3000/_next/static/chunks/_7128ffca._.js:1173:30)\n    at async handleToggleComplete (http://localhost:3000/_next/static/chunks/_7128ffca._.js:1223:13)","status":500}
+[01:23:13.785] Browser ERROR   Toggle failed: {"code":"ERR_BAD_RESPONSE","config":{"adapter":["xhr","http","fetch"],"allowAbsoluteUrls":true,"baseURL":"http://localhost:5000/api/","data":"{\"completed\":true}","env":{},"headers":{"Accept":"application/json, text/plain, */*","Authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5MzNmOWZkMmYyOGMyYTVjZGIyZGQ1ZSIsImlhdCI6MTc2NTAxNDI5OCwiZXhwIjoxNzY1NjE5MDk4fQ.KwOXMdULVlH90tPImjWxH4qgdquW5P4_HjHsRDIvusQ","Content-Type":"application/json"},"maxBodyLength":-1,"maxContentLength":-1,"method":"put","timeout":0,"transformRequest":[null],"transformResponse":[null],"transitional":{"clarifyTimeoutError":false,"forcedJSONParsing":true,"silentJSONParsing":true},"url":"tasks/undefined","xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN"},"message":"Request failed with status code 500","name":"AxiosError","stack":"AxiosError: Request failed with status code 500\n    at settle (http://localhost:3000/_next/static/chunks/node_modules_66ba6bc8._.js:7694:16)\n    at XMLHttpRequest.onloadend (http://localhost:3000/_next/static/chunks/node_modules_66ba6bc8._.js:8209:174)\n    at Axios.request (http://localhost:3000/_next/static/chunks/node_modules_66ba6bc8._.js:9013:49)\n    at async Object.toggleTaskComplete (http://localhost:3000/_next/static/chunks/_7128ffca._.js:1173:30)\n    at async handleToggleComplete (http://localhost:3000/_next/static/chunks/_7128ffca._.js:1223:13)","status":500}
+[01:24:28.063] Server  LOG      ✓ Compiled in 533ms
+[01:27:07.454] Server  LOG      ✓ Compiled in 390ms
+[01:27:11.498] Server  LOG      ✓ Compiled in 221ms
+[01:28:12.156] Server  LOG      ✓ Compiled in 149ms
+[01:29:44.443] Browser ERROR   Task ID is undefined
+[01:30:30.625] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:30:31.128] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:30:31.128] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[01:30:31.129] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1765016053308}
+[01:30:35.437] Browser ERROR   A component is changing an uncontrolled input to be controlled. This is likely caused by the value changing from undefined to a defined value, which should not happen. Decide between using a controlled or uncontrolled input element for the lifetime of the component. More info: https://react.dev/link/controlled-components
+[01:30:52.910] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:30:53.312] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:30:53.312] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[01:30:53.312] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1765016075487}
+[01:31:38.036] Browser ERROR   A component is changing an uncontrolled input to be controlled. This is likely caused by the value changing from undefined to a defined value, which should not happen. Decide between using a controlled or uncontrolled input element for the lifetime of the component. More info: https://react.dev/link/controlled-components
